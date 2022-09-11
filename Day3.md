@@ -1,4 +1,6 @@
 ## 폭포수 모델 (Waterfall Model)
+![image](https://user-images.githubusercontent.com/79950504/189526449-d75a24d6-fb88-41a8-b03c-3b1d76b9f4ba.png)  
+
 #### 폭포수 모델이란?
 - 소프트웨어 개발 시 단계적으로 개발하는 방법을 의미한다.
 - 분석 -> 설계 -> 개발 -> 테스트 -> 적응 -> 안정화 총 6단계를 거친다.
