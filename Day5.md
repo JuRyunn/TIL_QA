@@ -13,19 +13,44 @@
 ## 자동화 도구 종류
 
 #### SADT (Structured Analysis and Design Techique)
-
+- SoftTech에서 개발한 것으로 시스템 정의, 소프트웨어 요구사항 분석, 시스템/소프트웨어 설계를 위해 이용되어 온 구조적 분석 및 설계도구.
+- 구조적 요구분석을 위해 블록 다이어그램을 채택함.
 
 #### SREM (Software Reqirements Engineering Methodolgy)
+- TRW에서 실시간 처리 소프트웨어 시스템에서 요구사항을 명확히 기술하도록 할 목적으로 개발한 것으로 RSL과 REVS를 사용하는 자동화도구.
 
-
-#### PSL/PSA (Requirement Statement Language)
-
+#### RSL (Require Statement Language)
+- 요소, 속성, 관계, 구조들을 기술하는 요구사항 기술 언어.
+- 요소: 요구사항 명세를 개발하기 위해 사용되는 개체와 개념. 
+- 속성: 요소를 수정하거나 수식하기 위한 것.
+- 관계: 개체들 간의 관계.
+- 구조: 정보 흐름을 묘사하기 위한 것.
 
 #### REVS (Requirment Engineering and Validation System)
+- RSL로 기술된 요구사항들을 자동으로 분석해 요구사항 분석 명세서를 출력하는 요구사항 분석기.
+
+#### PSL/PSA (Requirement Statement Language)
+- 미시간 대학에서 개발한 것으로 PSL과 PSA를 사용하는 자동화도구.
+- PSL (Problem Statement Language): 요구사항 기술언어.
+- PSA (Problem Statement Analyzer): PSL로 기술한 요구사항을 자동으로 분석해 다양한 보고서를 출력하는 문제 분석기.
+
+#### TAGS (Technology for Automated Generation of Systems)
+- 시스템 공학 방법 응용에 대한 자동 접근 방법으로 개발 주기의 전 과정에 이용 가능한 통합 자동화도구.
+- 구성: IORL (요구사항 명세언어), 요구사항 분석과 처리를 위한 도구로 기초적인 TAGS 방법론
 
 
+<br>
 
-#### PSL / PSA
+## HIPO (Hierychy Input Process Output)
+- 시스템의 분석 및 설계나 문서화에 사용되는 기법으로 시스템 실행 과정인 입력, 처리 출력의 기능을 나타냄.
+- 기본 시스템 모델은 입력, 처리, 출력으로 구성되며 하향식 소프트웨어 개발을 위한 문서화도구.
+- 체계적인 문서 관리가 가능하다.
+- 기호, 도표 등을 사용하므로 보기 쉽고 이해하기 쉽다.
+- 기능과 자료의 의존 관게를 동시에 표현할 수 있다.
+- 변경, 유지보수가 용이하다.
+- 시스템의 기능을 여러 개의 고유 모듈들로 분할하여 이들 간의 인터페이스를 계층 구조로 표현한 것을 HIPO Chart라고 한다.
 
-
-### TAGS (Technology for Automated Generation of Systems)
+#### HIPO Chart의 종류
+- 가시적 도표 (도식표차): 시스템의 전체적인 기능과 흐름을 보여주는 계층 구조도.
+- 총체적 도표 (총괄도표, 개요도표): 프로그램을 구성하는 기능을 기술한 것으로 입력, 처리, 출력에 대한 전반적인 정보를 제공하는 도표.
+- 세부적 도표 (상세도표): 총체적 도표에 표시된 기능을 구성하는 기본 요소들을 상세하게 기술하는 도표.
